@@ -1,0 +1,61 @@
+.paginate_container {
+  display: flex;
+  justify-content: center;
+  font-family: Bebas;
+}
+
+.prev_next {
+  padding-left: 15px;
+  padding-right: 15px;
+  /* background-color: red; */
+  height: max-content;
+}
+
+.next_prev_btn {
+  font-size: 22px;
+  color: black;
+  width: 30px;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.next_prev_btn:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.next_prev_btn:disabled {
+  display: none;
+}
+
+.pages {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  display: inline-block;
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-bottom: 3rem;
+  transition: all 100ms ease;
+  font-size: 21px;
+}
+.page:hover {
+  transform: scale(1.1);
+}
+
+.numPage {
+  color: black;
+}
+.numPage:hover {
+  font-size: 22px;
+  color: black;
+}
+
+.numPageSelected {
+  font-size: 24px;
+  color: black;
+  border-bottom: 3px solid black;
+}

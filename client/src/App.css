@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Wifty";
+  src: local("Wifty"), url("./fonts/Wifty.ttf") format("truetype");
+}
